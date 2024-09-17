@@ -1,0 +1,114 @@
+.yourDetailsDescription {
+  text-align: center;
+}
+.yourDetailsHeading {
+  color: #f1f5f9;
+  font-size: 24px;
+  font-weight: 600;
+}
+.yourDetailsPara {
+  color: #f1f5f9;
+  font-size: 16px;
+  font-weight: 400;
+}
+.yourDetailsFormContainer {
+  display: flex;
+  flex-direction: column;
+  background-color: #ffffff;
+  padding: 30px;
+  width: 100%;
+  height: 336px;
+  border-radius: 12px;
+  margin: 20px;
+  text-align: left;
+}
+.yourDetailsInputField {
+  padding: 9px 13px;
+  box-shadow: 0px 1px 2px 0px #00000014;
+  width: 80%;
+  height: 38px;
+  border-radius: 8px;
+  border: 1px solid #cbd5e1;
+  position: relative;
+}
+.yourDetailsLabels {
+  color: #334155;
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  text-align: left;
+  margin-top: 14px;
+}
+.yourDetailsNextButton {
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  text-align: center;
+  color: #ffffff;
+  background-color: #2563eb;
+  border: none;
+  border-radius: 4px;
+  padding: 8px 16px;
+}
+.buttonContainer {
+  margin-top: 10px;
+  align-self: center;
+}
+.errorMsg {
+  color: #ef4444;
+  font-family: DM Sans;
+  font-size: 14px;
+  font-weight: 400;
+  text-align: left;
+}
+.errorInputField {
+  border: 1px solid #ef4444;
+}
+.errorInputField::placeholder {
+  color: #ef4444;
+}
+.inputFieldContainer {
+  display: inline-block;
+  position: relative;
+  width: 100%;
+}
+.errorIcon {
+  position: absolute;
+  right: 80px;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 20px;
+  color: #ef4444;
+  border: none;
+  background-color: transparent;
+  pointer-events: none;
+}
+
+@media (max-width: 520px) {
+  .yourDetailsDescription {
+    text-align: left;
+    margin: 20px;
+  }
+  .yourDetailsHeading {
+    color: #334155;
+    font-size: 26px;
+  }
+  .yourDetailsPara {
+    color: #334155;
+    font-size: 16px;
+  }
+  .yourDetailsInputField {
+    width: 100%;
+  }
+  .yourDetailsFormContainer {
+    padding: 0%;
+    margin: 20px;
+    width: 90%;
+    align-self: left;
+  }
+  .buttonContainer {
+    align-self: flex-end;
+  }
+}

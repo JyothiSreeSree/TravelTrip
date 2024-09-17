@@ -1,0 +1,115 @@
+.guestsDescription {
+  text-align: center;
+  width: 70%;
+}
+.guestsHeading {
+  color: #f1f5f9;
+  font-size: 24px;
+  font-weight: 600;
+}
+.guestsPara {
+  color: #f1f5f9;
+  font-size: 16px;
+  font-weight: 400;
+}
+.guestsFormContainer {
+  display: flex;
+  flex-direction: column;
+  background-color: #ffffff;
+  padding: 30px;
+  width: 100%;
+  border-radius: 12px;
+  margin: 20px;
+  text-align: left;
+}
+.guestsNextButton {
+  font-family: Inter;
+  font-size: 12px;
+  font-weight: 500;
+  text-align: center;
+  color: #ffffff;
+  background-color: #2563eb;
+  border: none;
+  border-radius: 4px;
+  padding: 6px 16px;
+}
+.guestType {
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 600;
+  text-align: left;
+  color: #334155;
+}
+.guestAge {
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 400;
+  text-align: left;
+  color: #475569;
+}
+.guestsEachDetailsContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.guestsEachDetailsContainerButtons {
+  display: flex;
+  flex-direction: row;
+}
+.count {
+  margin-top: 10px;
+}
+.button {
+  margin: 7px;
+  border-radius: 50%;
+  border: 1px solid #cbd5e1;
+  padding: 4px 6px;
+  width: 30px;
+  height: 30px;
+  background-color: transparent;
+}
+hr {
+  border: 1px solid #e2e8f0;
+  width: 100%;
+}
+.buttonContainer {
+  margin-top: 10px;
+  align-self: center;
+}
+.buttonsContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.gguestsNextButton {
+  font-family: Inter;
+  font-size: 12px;
+  font-weight: 500;
+  text-align: center;
+  color: #ffffff;
+  background-color: #2563eb;
+  border: none;
+  border-radius: 4px;
+  padding: 6px 16px;
+}
+@media (max-width: 520px) {
+  .guestsDescription {
+    text-align: left;
+    margin: 20px;
+  }
+  .guestsHeading {
+    color: #334155;
+    font-size: 26px;
+  }
+  .guestsPara {
+    color: #334155;
+    font-size: 16px;
+  }
+  .guestsFormContainer {
+    padding: 0%;
+    margin: 20px;
+    width: 90%;
+    align-self: left;
+  }
+}

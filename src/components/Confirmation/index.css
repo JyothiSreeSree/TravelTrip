@@ -1,0 +1,131 @@
+.dateSelectionDescription {
+  text-align: center;
+  width: 60%;
+}
+.dateSelectionHeading {
+  color: #f1f5f9;
+  font-size: 24px;
+  font-weight: 600;
+}
+.dateSelectionPara {
+  color: #f1f5f9;
+  font-size: 16px;
+  font-weight: 400;
+}
+.dateSelectionFormContainer {
+  display: flex;
+  flex-direction: column;
+  background-color: #ffffff;
+  padding: 30px;
+  width: 100%;
+  border-radius: 12px;
+  margin: 20px;
+  text-align: left;
+}
+.confirmationNameContainer {
+  display: flex;
+  align-items: center;
+}
+
+.nameHeading {
+  width: 113px;
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  text-align: left;
+  color: #334155;
+}
+
+.confirmedName {
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  color: #475569;
+}
+.dateSelectionNextButton {
+  font-family: Inter;
+  font-size: 12px;
+  font-weight: 500;
+  text-align: center;
+  color: #ffffff;
+  background-color: #2563eb;
+  border: none;
+  border-radius: 4px;
+  padding: 6px 16px;
+}
+.buttonContainer {
+  margin-top: 10px;
+  align-self: center;
+}
+.errorMsg {
+  color: #ef4444;
+  font-family: DM Sans;
+  font-size: 14px;
+  font-weight: 400;
+  text-align: left;
+}
+.errorInputField {
+  border: 1px solid #ef4444;
+  color: #ef4444;
+}
+.errorInputField::placeholder {
+  color: #ef4444;
+}
+.buttonsContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+@media (max-width: 520px) {
+  .dateSelectionDescription {
+    text-align: left;
+    margin: 20px;
+  }
+  .dateSelectionHeading {
+    color: #334155;
+    font-size: 26px;
+  }
+  .dateSelectionPara {
+    color: #334155;
+    font-size: 16px;
+  }
+  .dateSelectionInputField {
+    width: 100%;
+  }
+  .dateSelectionFormContainer {
+    padding: 0%;
+    margin: 20px;
+    width: 90%;
+    align-self: left;
+  }
+  .buttonContainer {
+    align-self: flex-end;
+  }
+}
+
+.confirmation-name-container {
+  display: flex;
+  align-items: center;
+}
+
+.nameHeading {
+  width: 113px;
+  font-family: 'Roboto';
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 24px;
+  text-align: left;
+  color: #334155;
+}
+
+.confirmedName {
+  font-family: 'Roboto';
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  color: #475569;
+}

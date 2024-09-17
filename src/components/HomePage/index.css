@@ -1,0 +1,98 @@
+.homeContainer {
+  max-width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  max-height: 100vh;
+  height: 100vh;
+}
+.homeTextContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  width: 100%;
+  height: 90%;
+  order: -1;
+}
+.homeTextInnerContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 20px;
+  color: #304766;
+}
+
+.travelImage {
+  width: 227px;
+  height: 312px;
+}
+
+.homeTitle {
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 600;
+  text-align: left;
+}
+.homeDescription {
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 400;
+  text-align: left;
+}
+
+.bookingButton {
+  padding: 12px 24px;
+  border-radius: 8px;
+  border: none;
+  background-color: #304766;
+  color: #ffffff;
+  text-align: centerj;
+}
+@media (min-width: 360px) {
+  .homeTextContainer {
+    flex-direction: row;
+    order: 0;
+  }
+  .homeTextInnerContainer {
+    width: 60%;
+  }
+  .travelImage {
+    order: 2;
+    width: 30%;
+    height: 424px;
+  }
+  .homeTitle {
+    font-size: 56px;
+    width: 413px;
+    height: 144px;
+  }
+  .homeDescription {
+    font-size: 20px;
+  }
+  .bookingButton {
+    font-size: 16px;
+  }
+}
+
+@media (min-width: 361px) and (max-width: 600px) {
+  .homeTextContainer {
+    flex-direction: row;
+    order: -1;
+  }
+  .travelImage {
+    height: 324px;
+  }
+  .homeTitle {
+    font-size: 46px;
+    height: 104px;
+  }
+  .homeDescription {
+    font-size: 16px;
+    height: 104px;
+  }
+  .bookingButton {
+    font-size: 14px;
+    height: 64px;
+  }
+}

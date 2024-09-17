@@ -1,0 +1,149 @@
+.bookANewTripContainer {
+  background-color: #dbeafe;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+.bookANewTripDetailsContainer {
+  max-height: 90%;
+  height: 90%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+  background-color: #ffffff;
+  border: none;
+  border-radius: 8px;
+  margin: 30px 80px;
+}
+.stepsListContainer {
+  width: 30%;
+  height: 352px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  list-style-type: none;
+}
+.stepListItem {
+  display: flex;
+  flex-direction: row;
+
+  align-items: center;
+  text-align: center;
+}
+.eachStepNumber {
+  border: 1px solid #cbd5e1;
+  border-radius: 50%;
+  padding: 8px 14px;
+}
+.eachStepDisplayText {
+  padding-left: 10px;
+  color: #334155;
+  font-size: 14px;
+}
+.eachStepInformationContainer {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  background-color: #304766;
+  height: 100%;
+  width: 70%;
+  border-radius: 0px 10px 10px 0px;
+  align-items: center;
+}
+.eachStepSuccessImage {
+  width: 50px;
+}
+.mobileViewbookANewTripContainer {
+  display: none;
+}
+
+.mobileViewStepsList {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.dateSelectionFormContainer {
+  display: flex;
+  flex-direction: column;
+  background-color: #ffffff;
+  padding: 30px;
+  width: 100%;
+  border-radius: 12px;
+  margin: 20px;
+  text-align: left;
+}
+.dateSelectionDescription {
+  text-align: center;
+  width: 60%;
+}
+.confirmedImage {
+  width: 65px;
+  height: 64px;
+}
+.bookingConfirmedDescription {
+  font-family: 'Roboto';
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  text-align: center;
+  color: #475569;
+}
+.bookTripButton {
+  width: 134px;
+  height: 32px;
+  gap: 10px;
+  border-radius: 6px;
+  background-color: #2563eb;
+  box-shadow: 0px 1px 0px 0px #00000014;
+  font-family: 'Roboto';
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  text-align: center;
+  color: #ffffff;
+  border: none;
+  cursor: pointer;
+}
+.horizontalLine {
+  min-width: 59.2px;
+  height: 4px;
+  gap: 0px;
+  border-radius: 12px;
+  background-color: #e7e7e7;
+}
+
+.horizontalLineBackgroundColor {
+  background-color: #2563ebcc;
+  border: none;
+}
+.horizontalLineItem{
+  list-style-type: none;
+}
+@media (max-width: 520px) {
+  .bookANewTripContainer {
+    background-color: #ffffff;
+  }
+  .bookANewTripDetailsContainer {
+    display: none;
+  }
+  .mobileViewbookANewTripContainer {
+    display: block;
+    background-color: #ffffff;
+    height: 100%;
+    order: -1;
+    margin-top: 30px;
+  }
+  .dateSelectionFormContainer {
+    padding: 0%;
+    margin: 20px;
+    width: 90%;
+    align-self: left;
+  }
+  .eachStepInformationContainer {
+    background-color: #ffffff;
+    width: 100vw;
+    align-items: flex-start;
+    margin-left: 30px;
+  }
+}

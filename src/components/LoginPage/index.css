@@ -1,0 +1,126 @@
+.loginPageContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 800px;
+  gap: 0px;
+  opacity: 0px;
+}
+.loginContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 328px;
+  height: 472px;
+  gap: 0px;
+  opacity: 0px;
+  box-shadow: 0px 20px 25px 0px #0f172a1a;
+  background: #ffffff;
+}
+
+.loginHeading {
+  width: 117px;
+  height: 44px;
+  color: #334155;
+  font-family: 'Caveat';
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 44px;
+  text-align: center;
+}
+
+.usernameLabel,
+.passwordLabel {
+  width: 70px;
+  height: 20px;
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: 500;
+  text-align: left;
+  color: #334155;
+}
+.usernameInput,
+.passwordInput {
+  width: 272px;
+  height: 38px;
+  top: 350px;
+  left: 44px;
+  padding: 8px 8px 8px 12px;
+  gap: 24px;
+  border-radius: 8px;
+  border: 1px solid #64748b;
+  margin: 10px 0px;
+}
+.passwordInnerContainer {
+  position: relative;
+  display: inline-block;
+}
+.passwordEye {
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 16px;
+  color: #999;
+  border: none;
+  background-color: transparent;
+}
+.passwordContainer,
+.usernameContainer {
+  margin: 10px 15px 10px 25px;
+}
+
+.loginButton {
+  width: 272px;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  border-radius: 8px;
+  border: none;
+  background-color: #304766;
+
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 20px;
+  text-align: center;
+  color: #ffffff;
+}
+.errorMsg {
+  color: #ef4444;
+  font-size: 16px;
+}
+
+@media (min-width: 361px) {
+  .loginContainer {
+    width: 465px;
+    height: 472px;
+    padding: 70px;
+  }
+  .loginHeading {
+    font-size: 34px;
+    width: 130px;
+  }
+  .usernameLabel,
+  .passwordLabel {
+    font-size: 20px;
+  }
+  .usernameInput,
+  .passwordInput {
+    width: 290px;
+    height: 42px;
+    font-size: 20px;
+  }
+  .loginButton {
+    width: 290px;
+    padding: 12px;
+    font-size: 18px;
+  }
+  .errorMsg {
+    font-size: 18px;
+  }
+}

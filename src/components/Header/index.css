@@ -1,0 +1,79 @@
+.desktopNavbar {
+  background-color: #304766;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  height: 10%;
+  max-width: 100vw;
+  width: 100%;
+}
+.headerLogo {
+  width: 116px;
+  height: 44px;
+  font-family: Caveat;
+  font-size: 32px;
+  font-weight: 700;
+  color: #ffffff;
+  text-align: center;
+}
+.listContainer {
+  width: 180px;
+  height: 44px;
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  color: #ffffff;
+  align-items: center;
+}
+.link {
+  text-decoration: none;
+}
+.myTrips,
+.home {
+  color: #ffffff;
+  font-size: 20px;
+}
+.logoutButton {
+  width: 93px;
+  height: 40px;
+  padding: 12px 24px;
+  border-radius: 8px;
+  text-align: center;
+  align-self: center;
+  color: #304766;
+  background-color: #ffffff;
+}
+
+.mobileNavbar {
+  display: none;
+  height: 10%;
+}
+@media (max-width: 520px) {
+  .desktopNavbar {
+    display: none;
+  }
+  .mobileNavbar {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 16px;
+    background-color: #ffffff;
+    border-radius: 12px 12px 0px 0px;
+    border-top: 1px solid #d0d9e6;
+    box-shadow: 0px 7px 32px 0px #0000000d;
+  }
+  .homeIcon {
+    width: 28px;
+    height: 28px;
+  }
+  .myTripsIcon {
+    width: 26px;
+    height: 26px;
+  }
+  .logoutIcon {
+    width: 24px;
+    height: 24px;
+  }
+}
