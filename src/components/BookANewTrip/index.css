@@ -117,7 +117,7 @@
   background-color: #2563ebcc;
   border: none;
 }
-.horizontalLineItem{
+.horizontalLineItem {
   list-style-type: none;
 }
 @media (max-width: 520px) {
